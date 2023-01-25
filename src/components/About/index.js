@@ -11,7 +11,7 @@ const AboutMe = () => {
           <img
             style={{ height: "285px" }}
             src=""
-            class="float-left pr-4 pb-3 img-fluid"
+            class=""
             alt="Brandon Jimenez"
           />
           <p style={{ fontSize: "27px" }}>

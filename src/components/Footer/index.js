@@ -17,7 +17,7 @@ function Footer() {
           <li class="list-inline-item">
             <a
               class="btn-floating btn-li mx-1"
-              href="ww.linkedin.com/in/bpjimenez"
+              href="www.linkedin.com/in/bpjimenez"
             >
               <i class="fab fa-linkedin-in"> </i>
             </a>
