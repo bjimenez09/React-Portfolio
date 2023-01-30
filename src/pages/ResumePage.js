@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../components/Resume";
+import Resume from "../components/Resume/Resume";
 import Wrapper from "../components/Wrapper/index";
 
 function ResumePage() {
