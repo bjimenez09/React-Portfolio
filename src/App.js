@@ -12,6 +12,8 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.js';
 
+// import Background from './assets/macbook-pro-scaled.jpeg'
+
 function App() {
   // const [selectedPage, setselectedPage] = useState("about");
 
@@ -20,8 +22,9 @@ function App() {
     document.title = title;
   }, []);
 
-  document.body.style.backgroundColor = '#2d2d30';
+  document.body.style.backgroundColor = 'white';
   document.body.style.paddingBottom = '120px'
+  // <img src={Background} className="img-fluid" alt="Brandon Jimenez"/>
 
   return (
     <div className="App">

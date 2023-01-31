@@ -5,7 +5,6 @@
     --blue: #007acc;
     --gray-1: #c0c0c0;
     --gray-2: #3e3e42;
-    --gray-3: #2d2d30;
     --black-1: #252526;
     --black-2: #1e1e1e;
     --box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
@@ -13,8 +12,8 @@
   
   /* Navbar styles */
   .App-header {
-    background-color: var(--black-2);
-    box-shadow: 0 1px 8px var(--black-2);
+    background-color: var(--blue);
+    box-shadow: 0 1px 8px var(--blue);
   }
   
   .App-header a {
@@ -33,12 +32,12 @@
   
   a.nav-link {
     font-size: 20px;
-  
   }
   
   .navbar-nav ul {
     background: var(--black-2);
     border: none;
+    align-content: right;
   }
   
   .navbar-light .navbar-toggler-icon {
@@ -58,15 +57,17 @@
   
   .card-title {
     font-size: 30px;
+    font-weight: bold;
+    text-align: center;
   }
   
   .card-text {
     font-size: 20px;
   }
   
-  .dark-background {
-    background: var(--black-1);
-    color: var(--gray-1);
+  .light-background {
+    background: var(--white);
+    color: var(--black-1);
   }
   
   /* Projects styles */
@@ -89,16 +90,18 @@
   }
   
   .projects-header {
-    color: var(--gray-1);
+    color: var(--black-1);
     text-align: center;
     font-size: 200%;
+    font-weight: bold;
   }
   
   /* Contact styles */
   form.contact-form {
-    background: var(--black-1);
-    color: var(--gray-1);
+    background: var(--white);
+    color: var(--black-1);
     max-width: 75%;
+    font-weight: bold;
   }
   
   input.form-control {
@@ -126,12 +129,19 @@
   /* Resume styles */
   .resume {
     max-width: 80%;
+    text-align: center;
   }
   
   .resume h2 {
-    color: var(--gray-1);
+    color: var(--black-1);
     text-align: center;
     font-size: 200%;
+    font-weight: bold;
+  }
+
+  .resume img {
+    width: 500px;
+   height: 600px;
   }
   
   .download-btn button {
@@ -152,9 +162,30 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-copyright {
-    color: var(--gray-1);
+    color: var(--white);
     font-size: 18px;
+    background: var(--black-1);
   }
+
+  .content {
+    display: block;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+    padding: auto;
+  }
+
+  .content img {
+    height:30px;
+       width: 30px;
+       float:center;
+   }
+
+
+
+  

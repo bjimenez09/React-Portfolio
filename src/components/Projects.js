@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import '../App.css';
-// import image1 from "../assets/images/Weather-Dashboard.png";
+import projectImage1 from "../assets/projects/images/noteAppScreenshot.png";
 // import image2 from "../assets/images/The-Book-Club.png";
 
 
@@ -11,10 +12,10 @@ export default function Projects () {
                 <div className="col">
                     <div className="card border-0">
                         <a href="" target="_blank" rel="noreferrer">
-                            <img src={image1} className="card-img-top" alt="Project 1"/>
+                            <img src={projectImage1} className="card-img-top" alt="Notes App"/>
                         </a>
                         <div className="card-body dark-background">
-                            <h5 className="card-title dark-background">Project 1</h5>
+                            <h5 className="card-title dark-background">Notes App</h5>
                             <p>
                                 <button className="button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                                     Description
@@ -22,13 +23,13 @@ export default function Projects () {
                             </p>
                             <div className="collapse" id="collapse1">
                                 <div className="card card-body">
-                                {/* {Project Description} */}
+                                    Note Taker application that can be used to write and save notes
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                {/* <div className="col">
                     <div className="card border-0">
                         <a href="" target="_blank" rel="noreferrer">
                             <img src={image2} className="card-img-top" alt="Project 2"/>
@@ -42,12 +43,12 @@ export default function Projects () {
                             </p>
                             <div className="collapse" id="collapse2">
                                 <div className="card card-body">
-                                {/* {Project Description} */}
+                                {Project Description}
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>            
     )
