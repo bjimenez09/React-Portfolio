@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../App.css';
 import projectImage1 from "../assets/projects/images/noteAppScreenshot.png";
-// import image2 from "../assets/images/The-Book-Club.png";
+import projectImage2 from "../assets/projects/images/weird-music-screenshot.png";
 
 
 export default function Projects () {
@@ -29,13 +29,13 @@ export default function Projects () {
                         </div>
                     </div>
                 </div>
-                {/* <div className="col">
+                <div className="col">
                     <div className="card border-0">
                         <a href="" target="_blank" rel="noreferrer">
-                            <img src={image2} className="card-img-top" alt="Project 2"/>
+                            <img src={projectImage2} className="card-img-top" alt="Project 2"/>
                         </a>
                         <div className="card-body dark-background">
-                            <h5 className="card-title dark-background">Project 2</h5>
+                            <h5 className="card-title dark-background">Weird Music</h5>
                             <p>
                                 <button className="button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                     Description
@@ -43,12 +43,12 @@ export default function Projects () {
                             </p>
                             <div className="collapse" id="collapse2">
                                 <div className="card card-body">
-                                {Project Description}
+                                    A local Austin TX music chat app to connect music loving Texans.
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>            
     )
