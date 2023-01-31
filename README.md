@@ -49,4 +49,4 @@ This application is covered under the MIT license.
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-![badmath](https://img.shields.io/github/repo-size//bjimenez09/react-portfolio)
+![badmath](https://img.shields.io/github/repo-size/bjimenez09/react-portfolio)
