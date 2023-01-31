@@ -2,7 +2,7 @@
 
 ## Description
 
-I have created a React Portfolio, that has information about me, and resume. 
+I have created my personal React based developer Portfolio where future employers can gather information about me and checkout my resume. 
 
 Heroku App:
 https://bjimenez.herokuapp.com/
